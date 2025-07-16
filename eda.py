@@ -7,8 +7,10 @@ from PIL import Image
 
 def run():
     st.write('# Insurance')
-    gambar = Image.open('/Users/hs/Downloads/istockphoto-1153620019-612x612.jpg')
-    st.image(gambar)
+    st.markdown("""<div style='text-align: center;'>
+    <img src='https://media.istockphoto.com/id/1153620019/photo/hand-holding-piece-of-puzzle-with-word-insurance-risk.jpg?s=612x612&w=0&k=20&c=Nyrc740sEDh064YHWrxT3BEXW3kEXxjrsm-1RCaIDcA=' width='400'>
+    </div>""", unsafe_allow_html=True)
+
     st.write('# Description')
     st.write('''Asuransi kesehatan penting untuk memberikan perlindungan finansial terhadap risiko kesehatan yang tidak terduga. 
                 Project ini bertujuan untuk memprediksi premi asuransi kesehatan secara lebih akurat berdasarkan profil peserta. 
