@@ -17,7 +17,7 @@ def run():
                 Model dikembangkan menggunakan algoritma Linear Regression dan dievaluasi dengan Mean Absolute Error (MAE) sebagai metrik kinerja.''')
 
     # Dataframe
-    df = pd.read_csv('/Users/hs/p1-ftds029-hck-m2-Khalif-Coding/Medicalpremium.csv')
+    df = pd.read_csv('Medicalpremium.csv')
     st.write('# Dataset')
     st.write(df)
 
